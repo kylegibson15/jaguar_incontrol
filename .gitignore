@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+jag_frontend/node_modules/
+
+# testing
+jag_frontend/coverage
+
+# production
+jag_frontend/build
+
+# misc
+jag_frontend/.DS_Store
+jag_frontend/.env.local
+jag_frontend/.env.development.local
+jag_frontend/.env.test.local
+jag_frontend/.env.production.local
+jag_frontend/npm-debug.log*
+jag_frontend/yarn-debug.log*
+jag_frontend/yarn-error.log*
+.vscode
+
+#python
+jag_backend/__pycache__
+jag_backend/bin
+jag_backend/lib
+jag_backend/include
